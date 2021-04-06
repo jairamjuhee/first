@@ -1,0 +1,159 @@
+.body
+{
+    font-family: 'Sofia', cursive;
+    max-width: 0px;
+}
+.container{
+   display: grid;
+   grid-template-columns: 1fr; 
+}
+.navigator{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: rgb(172, 228, 238);
+    
+    
+}
+.left
+{
+    display: flex;}
+    
+.navigator > .left > div{
+    margin-right: 20px;
+    
+    font-family: 'Sofia', cursive;
+    text-transform: uppercase;
+    
+
+}
+.linknavi{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom .5s;
+}
+.linknavi a {
+
+    text-decoration: none;
+    transition: color 0.5s;
+   
+}
+.linknavi:hover{
+    border-bottom:1px solid rgb(18, 3, 230);
+    filter: brightness(10%);
+    transition: 1s;
+}
+.linknavi a :hover{
+    
+}
+.navigator > .right > div{
+    margin-right: 20px;
+    
+   
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    font-size: large;
+    color: darkorange;
+    
+}
+
+.right:hover{
+    color:solid rgb(0, 0, 0);
+    font-size: x-large;
+    transition: font-size 1s;
+    filter: brightness(10%);
+    transition: 1s;
+
+}
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.single {
+    position: relative;
+}
+.backimage
+{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image:no-repeat;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    
+}
+.imgtext
+{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.backimage:hover{
+    filter: brightness(10%);
+    transition: 1s;
+}
+.logo img{
+    width: 50%;
+    
+    margin-bottom: 20px;
+}
+.imgtext .subtitle
+{
+    font-weight: 700;
+    color:transparent;
+    font-family: 'Sofia', cursive;
+}
+.imgtext:hover .subtitle{
+    font-weight: 700;
+    color:rgb(90, 90, 255);
+    transition-duration: 1s;
+    font-size: larger;
+}
+.darkimg
+{
+filter: brightness(10%);
+transition: 1s;
+}
+.twomargins{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.imgmargin img{
+    width: 100%;
+    
+}
+.paramargin{
+    padding: 40px;
+}
+ .paramargin h1{
+
+     color: rgb(170, 0, 255);
+     font-family: 'Sofia', cursive;
+     font-size: 20px;
+ }   
+ .paramargin p{
+     color: darkblue;
+     font-family: 'Sofia', cursive;
+     font-weight: 300;
+     font-size: 20px;
+
+ }
+ .paramargin H1:hover{
+    border-bottom: 1px solid red;
+    transition: border-bottom 0.5s;
+    
+ }
+ 
+ 
